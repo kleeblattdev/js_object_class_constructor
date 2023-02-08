@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project_Panini_Karten</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+    <main>
+        <form>
+            <fieldset>
+                <div>
+                    <label for="firstName" hidden>First Name</label>
+                    <input type="text" name="firstName" id="firstName" placeholder="First Name">
+                    <label for="lastName" hidden>Last Name</label>
+                    <input type="text" name="lastName" id="lastName" placeholder="Last Name">
+                </div>
+                <div>
+                    <label for="stageName" hidden>Stage Name</label>
+                    <input type="text" name="stageName" id="stageName" placeholder="Stage Name">
+                </div>
+                <div>
+                    <label for="albums" hidden>How many albums?</label>
+                    <input type="number" name="albums" id="albums" placeholder="How many albums?">
+                    <label for="singles" hidden>How many singles?</label>
+                    <input type="number" name="singles" id="singles" placeholder="How many singles?">
+                </div>
+                <div>
+                    <label for="netWorth" hidden>Net worth in EUR</label>
+                    <input type="number" name="netWorth" id="netWorth" placeholder="Net worth in EUR">
+                    <label for="age" hidden>How old is this Person?</label>
+                    <input type="number" name="age" id="age" placeholder="How old is this Person?">
+                </div>
+                <div>
+                    <label for="quote" hidden>A famous quote by this person</label>
+                    <textarea name="quote" id="quote" cols="30" rows="10" placeholder="A famous quote by this person"></textarea>
+                </div>
+                <div>
+                    <label for="img" hidden>Image URL</label>
+                    <input type="text" name="imgURL" id="imgURL" placeholder="Image URL">
+                </div>
+                <button type="submit">Add</button>
+            </fieldset>
+        </form>
+    </main>
+    <script src="./assets/js/main.js"></script>
+</body>
+</html>
